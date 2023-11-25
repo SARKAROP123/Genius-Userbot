@@ -8,17 +8,17 @@ from .. import *
 from ..modules.data import approve, disapprove, is_approved
 
 MSG_PERMIT = """
-PM_SECURITY GENIUS-USERBOT
+𝗣𝗠_𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 𝗦𝗔𝗥𝗞𝗔𝗥 𝗕𝗢𝗧
 
 {}
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-⍟ You have {}/{} warning!!!
+⍟ 𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 {}/{} 𝗪𝗔𝗥𝗡𝗜𝗡𝗚!!!
 """
 
 DEFAULT = """
-WELCOME....
+𝗪𝗘𝗟𝗖𝗢𝗠𝗘....
 
-Hi, this is the keeper of private messages. Don't spam ya or I'll block you. Wait until my master receives your message.
+𝗛𝗜, 𝗧𝗛𝗜𝗦 𝗜𝗦 𝗞𝗘𝗘𝗣𝗘𝗥 𝗢𝗙 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗗𝗢𝗡𝗧 𝗦𝗣𝗔𝗠 𝗠𝗬 𝗗𝗠 𝗜 𝗕𝗟𝗢𝗖𝗞 𝗬𝗢𝗨.
 """
 
 
@@ -105,7 +105,7 @@ async def pm_approve(client: Client, message: Message):
         aname = message.chat
         if not aname.type == ChatType.PRIVATE:
             await message.reply(
-                "You're not currently in PM and you haven't replied to someone's messages."
+                "𝗬𝗢𝗨'𝗔𝗥𝗘 𝗡𝗢𝗧 𝗜𝗡 𝗣𝗠 𝗔𝗡𝗗 𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 𝗧𝗢𝗦𝗘𝗢𝗡𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘."
             )
             return
         uid = aname.id
@@ -177,7 +177,7 @@ async def unblock_user_func(client: Client, message: Message):
 
 __NAME__ = "PM"
 __MENU__ = f"""
-**🥀 Private Message Guard ✨...**
+**🥀 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗚𝗨𝗔𝗥𝗗 ✨...**
 
 `.a` or `.approve`
 For approve user
