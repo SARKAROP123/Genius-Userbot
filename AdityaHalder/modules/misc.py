@@ -43,8 +43,8 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy Genius Userbot ✨",
-                            url=f"https://github.com/AdityaHalder/Genius-Userbot"
+                            "💥 𝗠𝗬 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥✨",
+                            url=f"https://t.me/ll_SARKAR_BABE_ll"
                         )
                     ]
                 ]
@@ -54,11 +54,11 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
-                                title="🥀 Genius Userbot ✨",
-                                thumb_url=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
-                                description=f"🌷 Deploy Your Own Genius-Userbot 🌿...",
-                                caption=f"<b>🥀 Welcome › To › Genius 🌷\n✅ Userbot v2.0 ✨...</b>",
+                                photo_url=f"https://telegra.ph/file/51d2a8d64d64b798347d0.jpg",
+                                title="🥀 𝗦𝗔𝗥𝗞𝗔𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧✨",
+                                thumb_url=f"https://telegra.ph/file/51d2a8d64d64b798347d0.jpg",
+                                description=f"𝗦𝗔𝗥𝗞𝗔𝗥 𝗨𝗦𝗘𝗥...",
+                                caption=f"<b>🥀 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 › 𝗧𝗢 › 𝗦𝗔𝗥𝗞𝗔𝗥 🌷\n✅ 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 v2.0 ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -74,7 +74,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Genius Userbot❗...\n\nRepo:** <i>https://github.com/AdityaHalder/Genius-Userbot/</i>||"
+                                    f"||**🥀𝗢𝗪𝗡𝗘𝗥❗...\n\n𝗨𝗦𝗘𝗥:** <i>https://t.me/ll_SARKAR_BABE_ll/</i>||"
                                 ),
                             )
                         )
