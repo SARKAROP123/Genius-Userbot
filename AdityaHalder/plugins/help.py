@@ -54,17 +54,17 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
-**🥀 Welcome To Help Menu Of
-Genius Userbot » {__version__} ✨...
+**🥀 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨
+𝗦𝗔𝗥𝗞𝗔𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 » {__version__} ✨...
 
-Click On Below 🌺 Buttons To
-Get Userbot Commands.
+𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗕𝗘𝗟𝗢𝗪 𝗕𝗨𝗧𝗧𝗢𝗡 𝗧𝗢
+𝗚𝗘𝗧 𝗨𝗦𝗘𝗥𝗕𝗢𝗧.
 
-🌷Powered By : [Aditya Server](https://t.me/AdityaServer).**"""
+🌷𝗣𝗢𝗪𝗘𝗥𝗗 𝗕𝗬 : [𝗦𝗔𝗥𝗞𝗔𝗥](https://t.me/ll_SARKAR_BABE_ll).**"""
     if plug_match:
         plugin = plug_match.group(1)
         text = (
-            "**♨️ Plugin :** {}\n".format(
+            "**♨️ 𝗣𝗟𝗨𝗚𝗜𝗡 :** {}\n".format(
                 PLUGINS[plugin].__NAME__
             )
             + PLUGINS[plugin].__MENU__
@@ -73,7 +73,7 @@ Get Userbot Commands.
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back", callback_data="help_back"
+                        text="↪️ 𝗕𝗔𝗖𝗞", callback_data="help_back"
                     )
                 ],
             ]
